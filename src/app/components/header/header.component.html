@@ -1,12 +1,18 @@
-
 <header>
-    <div id="logo"><img src="../assets/APLogo.png" />HTML5&nbsp;Layout</div>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="https://html-css-js.com/">HTML</a></li>
-        <li><a href="https://html-css-js.com/css/code/">CSS</a></li>
-        <li><a href="https://htmlcheatsheet.com/js/">JS</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="logo">
+    <img src="../assets/APLogo.png" />
+    <h1>{{miPortfolio.name}}</h1>
+    <h2>{{miPortfolio.position}}</h2>
+    <img [src]="miPortfolio.image" alt="">
+   </div>
+  
+  
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="https://html-css-js.com/">HTML</a></li>
+      <li><a href="https://html-css-js.com/css/code/">CSS</a></li>
+      <li><a href="https://htmlcheatsheet.com/js/">JS</a></li>
+    </ul>
+  </nav>
+</header>

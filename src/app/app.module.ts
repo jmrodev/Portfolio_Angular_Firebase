@@ -9,6 +9,7 @@ import { MainComponent } from './components/main/main.component';
 import { AsideComponent } from './components/aside/aside.component';
 import { TitleComponent } from './components/title/title.component';
 import { PageContentComponent } from './components/page-content/page-content.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PageContentComponent } from './components/page-content/page-content.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
