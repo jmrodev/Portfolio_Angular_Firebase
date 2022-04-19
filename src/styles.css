@@ -125,14 +125,15 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  text-decoration: none;
 }
 ins {
-  background-color: #ff9;
+  background-color: rgb(241, 241, 201);
   color: #000;
   text-decoration: none;
 }
 mark {
-  background-color: #ff9;
+  background-color: rgb(221, 221, 194);
   color: #000;
   font-style: italic;
   font-weight: bold;
@@ -164,7 +165,7 @@ select {
 
 body,
 html {
-  background-color: rgb(31, 31, 34);
+  background-color: rgb(29, 29, 31);
 }
 header {
   background: #0b303d;
@@ -176,7 +177,7 @@ nav {
   display: inline-block;
 }
 nav ul li a {
-  background: rgb(210, 226, 146);
+  background: rgb(212, 233, 131);
   padding: 2px 10px;
   font-size: 20px;
   text-decoration: none;
@@ -259,6 +260,18 @@ body > section {
   margin: auto;
   padding: 30px 0px;
   border-bottom: 1px solid #999;
+  color: rgb(129, 155, 125);
+}
+.mat-card{
+  background: rgb(20, 19, 19);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  
+}
+.card-titles{
+  font-size: 20px;
+  font-weight: bold;
   color: rgb(129, 155, 125);
 }
 

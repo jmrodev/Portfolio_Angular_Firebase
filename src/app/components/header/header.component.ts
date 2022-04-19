@@ -18,5 +18,4 @@ miPortfolio:any;
     })
 
   }
-a
 }

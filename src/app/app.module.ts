@@ -10,6 +10,7 @@ import { AsideComponent } from './components/aside/aside.component';
 import { TitleComponent } from './components/title/title.component';
 import { PageContentComponent } from './components/page-content/page-content.component';
 import {HttpClientModule} from '@angular/common/http';
+import { ExperienceAndEducationComponent } from './components/experience-and-education/experience-and-education.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {HttpClientModule} from '@angular/common/http';
     AsideComponent,
     TitleComponent,
     PageContentComponent,
+    ExperienceAndEducationComponent,
     ],
   imports: [
     BrowserModule,

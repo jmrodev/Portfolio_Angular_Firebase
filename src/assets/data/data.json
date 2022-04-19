@@ -3,6 +3,7 @@
   "backimage": "src/assets/banner.jpg",
   "image": "https://lh3.googleusercontent.com/iLwDnwCNa04of6OdGF_3NlFNY5l0Zzz3sucDds7RU-NApjfGokfUBc9CqUH1R4ArF0r3c8dLhJ-S6kigSLqNwslYbjZ2d_2VQ84Qkk5qNtJYismMSutfFHRugfVU0spR9nEwqiCIXiBFGC8Vys7sABZiScpfnc3kjN-1e3uDd7Etmz4_H2v_7c8In9soyWyFG4eKHO0XP0miTndqe_HxdloEUIygJR1LM1bDYIKi_hPspPA2eA-7uTUEAz7d2widM-feluDOZPIJrsvcK_Cjfgw1CXVQhMVjx9S-8TVxopKkXQv_l6yVeMV1-xL_LGIhghHRCzVjnkn6eSXfg7exgrD1X0ErOm7cCxyaSkbc57zBu0ArsMKNLqg9fpODtS_YJNNqvs2ku2sdy-R-dboCvnC09y4rr3YrFsrXQC7Y9oYfYgaM9ztzkBbuAmGJQ2Bo_pxP7CSIe_c0gDgc3KeC025L_mpPJ1rzVaQ93LyhoHg503yynCDo4skGbmgOQbHFPWfujYZZbSbbXTtvE8bCspqnjdQ6QHHCSazxUjrnHCzbuZL-YF4MP7hhuSiT9M9_wgnAL6pmt3psRiWMdvR7VaFndqieMOFSk3oOHMSuZch9FVKrGboplgJlspw8yIcdej_jzGnAO-aEiYO2yVDJ4P_9MThZvdLXHghPvMYjk0LOsLGYLwDQKmvzSBCo2VRaurdm0yVKxZB4uTWr4iTm6vl1U5XlGL_-IhcgDafo2GZnngMoFhNxdIEVzmjULw=s258-no?authuser=0",
   "position": "Desarrollador Web",
+  "mail": "juanmarcelo.rodrigueztandil@gmail.com"
   "company": {
     "name": "Sertectan",
     "img": "src/assets/logo.png",
@@ -10,21 +11,21 @@
   },
   "education": [
     {
-      "name": "Universidad Nacional del centro de la provincia de Buenos Aires (UNICEN",
-      "img": "logo-unicen",
-      "url": "unicen.edu.ar",
+      "name": "UNICEN",
+      "img": "https://www.unicen.edu.ar/sites/all/themes/unicen/images/logo.png",
+      "url": "https://www.unicen.edu.ar/",
       "start": "2010",
       "end": "2014",
-      "career": "Ingenieria en Sistemas Computacionales",
+      "career": "Tecnicatura en aplicaciones informaticas",
       "certification": "url-certicate"
     },
     {
-      "name": "Universidad Nacional del centro de la provincia de Buenos Aires (UNICEN",
-      "img": "logo-unicen",
-      "url": "unicen.edu.ar",
+      "name": "UNICEN",
+      "img": "https://www.unicen.edu.ar/sites/all/themes/unicen/images/logo.png",
+      "url": "https://www.unicen.edu.ar/",
       "start": "2015",
       "end": "2017",
-      "description": "Ingenieria en Sistemas Computacionales",
+      "career": "Ingenieria en Sistemas Computacionales",
       "certification": "url-certicate"
     }
   ],
