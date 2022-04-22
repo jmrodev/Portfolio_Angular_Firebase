@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder,FormGroup, Validators } from '@angular/forms';
+import { AuthenticationService } from 'src/app/services/authentication.service';
 
 @Component({
   selector: 'app-start-session',
@@ -8,14 +9,14 @@ import { FormBuilder,FormGroup, Validators } from '@angular/forms';
 })
 export class StartSessionComponent implements OnInit {
   form: FormGroup;
-  constructor(private formBuilder: FormBuilder) {
-
+  constructor(private formBuilder: FormBuilder,  AuthenticationService: AuthenticationService ) {
+console.log(AuthenticationService);
     this.form = this.formBuilder.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(6)]],
-      deviceId: ['17867868768'],
-      deviceType: ['web'],
-      notificationToken: ['17867868768'],
+      deviceId: ['AuthenticationService.getId()'],
+      deviceType: ['AuthenticationService.getDeviceType()'],
+      notificationToken: ['AuthenticationService.getToken()'],
     });
   }
   ngOnInit(): void {}

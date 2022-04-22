@@ -4,28 +4,30 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class AuthenticationService {
-  url: String = "http://localhost:4200/api/"
+  url = 'http://localhost:4200/api/auth/login';
   currentUserSubject: BehaviorSubject<any>;
 
   constructor(private http: HttpClient) {
-    console.log("entro al servicio");
-    this.currentUserSubject = new BehaviorSubject<any>(JSON.parse(sessionStorage.getItem('currentUser') || '{}'));
+    console.log('entro al servicio');
+    this.currentUserSubject = new BehaviorSubject<any>(
+      JSON.parse(sessionStorage.getItem('currentUser') || '{}')
+    );
   }
 
-  IniciarSession(credenciales: any): Observable<any> {
-    return this.http.post(this.url, credenciales).pipe(map(data => {
-      sessionStorage.setItem('currentUser', JSON.stringify(data));
-      return data;
-    }
-    ))
+  // inicio de sesion y devuelve el token
+  IniciarSesion(credenciales: any): Observable<any> {
+    return this.http.post(this.url, credenciales).pipe(
+      map((data) => {
+        sessionStorage.setItem('currentUser', JSON.stringify(data));
+        return data;
+      })
+    );
   }
 
-  obtenerDatos(): Observable<any> {
-    return this.http.get < /any>(this.url+"persona");
+  get UsuarioAutenticado() {
+    return this.currentUserSubject.value;
   }
-
 }
