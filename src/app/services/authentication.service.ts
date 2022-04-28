@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class AuthenticationService {
-  url = 'http://localhost:4200/api/auth/login';
+  url = 'http://localhost:4200/api/auth/start-session';
   currentUserSubject: BehaviorSubject<any>;
 
   constructor(private http: HttpClient) {
