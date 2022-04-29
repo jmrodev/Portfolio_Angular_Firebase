@@ -7,7 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AsideComponent } from './components/aside/aside.component';
-import { StartSessionComponent } from './components/start-session/start-session.component';
+import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -19,7 +19,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FooterComponent,
     MainComponent,
     AsideComponent,
-    StartSessionComponent,
+    LoginComponent,
     HomeComponent,
     NavbarComponent
     ],

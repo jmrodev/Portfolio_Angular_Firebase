@@ -3,11 +3,11 @@ import { FormBuilder,FormGroup, Validators } from '@angular/forms';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 
 @Component({
-  selector: 'app-start-session',
-  templateUrl: './start-session.component.html',
-  styleUrls: ['./start-session.component.css'],
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css'],
 })
-export class StartSessionComponent implements OnInit {
+export class LoginComponent implements OnInit {
   form: FormGroup;
   constructor(private formBuilder: FormBuilder,  AuthenticationService: AuthenticationService ) {
 console.log(AuthenticationService);
