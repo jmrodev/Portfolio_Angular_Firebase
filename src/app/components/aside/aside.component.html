@@ -1,5 +1,5 @@
 <!--EXPERIENCIA LABORAL-->
-<div class="card mat-card">
+<div class="card mat-card mt-5 ">
   <div id="experience">
     <div class="card-titles">
       <h2>Experiencia</h2>
@@ -14,10 +14,12 @@
         <div class="data-container">
           <a href="#">
             <div class="logo-image-container">
-              <img src="#" alt="logo empresa" class="logo-image" />
+              <img [src]="experience.img" alt="logo empresa" class="logo-image" />
             </div>
             <div class="list-info">
               <div>
+                <a [href]="experience.url" target="_blank" rel="noopener noreferrer">site: www.unicen.edu.ar</a>
+
                 <h3>{{experience.position}}</h3>
                 <p>{{experience.company}} - <span>{{experience.mode}}</span></p>
                 <h4><time>{{experience.start}}</time> - <time>{{experience.end}}</time></h4>

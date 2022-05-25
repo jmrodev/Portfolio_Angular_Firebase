@@ -30,7 +30,9 @@ footer,
 aside {
   background: #392069;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 
 
 
